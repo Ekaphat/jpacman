@@ -1,5 +1,5 @@
 # JPacman
-
+![Build Status]
 ![example_workflow](https://github.com/Ekaphat/jpacman/actions/workflows/jpacman.yml/badge.svg) 
 ![Coverage](.github/badges/jacoco.svg)
 ![Branches](.github/badges/branches.svg)
