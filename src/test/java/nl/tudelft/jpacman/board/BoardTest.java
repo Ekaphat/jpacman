@@ -16,14 +16,14 @@ public class BoardTest {
         assertThat(board.invariant()).isEqualTo(true);
     }
 
-    @Test
-    void squareAt() {
-        Square[][] oneoneBoard = {
-            { null },
-            { mock(BasicSquare.class) }
-        };
-        Board board = new Board(oneoneBoard);
-        assertThat(board.invariant()).isEqualTo(true);
-    }
+//    @Test
+//    void squareAt() {
+//        Square[][] oneoneBoard = {
+//            { null },
+//            { mock(BasicSquare.class) }
+//        };
+//        Board board = new Board(oneoneBoard);
+//        assertThat(board.invariant()).isEqualTo(true);
+//    }
 
 }
