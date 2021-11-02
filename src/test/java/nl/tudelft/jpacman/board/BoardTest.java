@@ -21,7 +21,9 @@ public class BoardTest {
         Board board = new Board(oneoneBoard);
         assertThat(board.invariant()).isEqualTo(true);
     }
-
+     /**
+     * Creates a new basic square.
+     */
     @Test
     void squareAt() {
         Square[][] oneoneBoard = {
