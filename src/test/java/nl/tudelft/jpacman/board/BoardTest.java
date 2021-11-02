@@ -5,7 +5,9 @@ import static org.mockito.Mockito.mock;
 import org.junit.jupiter.api.Test;
 
 public class BoardTest {
+/*
 
+*/
     @Test
     void testboard() {
         Square[][] oneoneBoard = {
