@@ -59,11 +59,11 @@ public class MapParserTest {
                 MapParser mapParser = new MapParser(levelFactory, boardFactory);
                 ArrayList<String> map = new ArrayList<>();
                 map.add("############");
-                map.add("#K        G#");
+                map.add("#L        G#");
                 map.add("############");
                 mapParser.parseMap(map);
             });
-        Assertions.assertEquals("Invalid character at 1,1: K", thrown.getMessage());
+        Assertions.assertEquals("Invalid character at 1,1: L", thrown.getMessage());
     }
 
 
